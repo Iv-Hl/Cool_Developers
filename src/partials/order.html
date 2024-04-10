@@ -1,5 +1,94 @@
 <section class="order">
-    <div class="container">
-        <p>Lorem ipsum dolor sit.</p>
+  <div class="container">
+    <div class="order-first-wrap">
+      <h2 class="order-title">Fresh Harvest Box has got you covered</h2>
+      <p class="order-first-article">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
     </div>
+    <div class="order-second-wrap">
+      <p class="order-second-article">
+        Ordering <span>from us</span> is quick and easy! Fill out
+        <span>the form</span> below and we will contact you !
+      </p>
+      <form>
+        <label for="name"
+          ><input
+            type="text"
+            name="name"
+            id="name"
+            class=""
+            placeholder="Full Name"
+        /></label>
+        <label for="email"
+          ><input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+        /></label>
+        <label for="comment">
+          <textarea
+            placeholder="Comment"
+            id="comment"
+            name="comment"
+          ></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="order-third-wrap">
+      <picture>
+        <source
+          srcset="
+            ./img/order-foto/follow_us_desk_2x.jpeg 2x,
+            ./img/order-foto/follow_us_desk.jpeg    1x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/order-foto/follow_us_tab_2x.jpeg 2x,
+            ./img/order-foto/follow_us_tab.jpeg    1x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/order-foto/follow_us_mob_2x.jpeg 2x,
+            ./img/order-foto/follow_us_mob.jpeg    1x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./img/order-foto/follow_us_desk.jpeg "
+          alt="Banking App"
+          width="295"
+          height="273"
+        />
+      </picture>
+      <p class="order-third-article">Follow us on our social networks:</p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/goitclub/" target="_blank"
+            >instagram</a
+          >
+          /
+        </li>
+        <li>
+          <a href="https://www.facebook.com/goITclub/" target="_blank"
+            >facebook</a
+          >
+          /
+        </li>
+        <li>
+          <a href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
