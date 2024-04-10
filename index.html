@@ -5,15 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="/Cool_Developers/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green Harvest</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
     
-
     <script type="module" crossorigin src="/Cool_Developers/commonHelpers.js"></script>
     <link rel="stylesheet" href="/Cool_Developers/assets/index-424a758f.css">
   </head>
@@ -63,13 +68,110 @@
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
 </section>
-      <!-- -->
+      <!-- Vasyl Vyshnevskiy -->
       <!-- Section 6 -->
       <section class="order">
-    <div class="container">
-        <p>Lorem ipsum dolor sit.</p>
+  <div class="container">
+    <div class="order-first-wrap">
+      <h2 class="order-title">
+        Fresh <span>Harvest</span> Box has got you covered
+      </h2>
+      <p class="order-first-article">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
     </div>
+    <div class="order-second-wrap">
+      <p class="order-second-article">
+        Ordering <span>from us</span> is quick and easy! Fill out
+        <span>the form</span> below and we will contact you !
+      </p>
+      <form>
+        <label for="name"
+          ><input
+            type="text"
+            name="name"
+            id="name"
+            class="form-input"
+            placeholder="Full Name"
+        /></label>
+        <label for="email"
+          ><input
+            type="email"
+            name="email"
+            id="email"
+            class="form-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+        /></label>
+        <label for="comment">
+          <textarea
+            placeholder="Comment"
+            id="comment"
+            name="comment"
+            class="form-textarea"
+          ></textarea>
+        </label>
+        <button type="submit" class="form-btn">Send</button>
+      </form>
+    </div>
+    <div class="order-third-wrap">
+      <picture>
+        <source
+          srcset="/Cool_Developers/assets/follow_us_desk_2x-5e38878d.jpeg 2x, /Cool_Developers/assets/follow_us_desk-c2411493.jpeg 1x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/Cool_Developers/assets/follow_us_tab_2x-35b63401.jpeg 2x, /Cool_Developers/assets/follow_us_tab-bde24cd6.jpeg 1x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/Cool_Developers/assets/follow_us_mob_2x-af405eb6.jpeg 2x, /Cool_Developers/assets/follow_us_mob-401ec806.jpeg 1x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./img/order-foto/follow_us_desk.jpeg "
+          alt="Banking App"
+          width="295"
+          height="273"
+          class="order-img"
+        />
+      </picture>
+      <p class="order-third-article">Follow us on our social networks:</p>
+      <ul class="order-list">
+        <li class="order-list-item">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            class="order-list-link"
+            >instagram</a
+          >
+          /
+        </li>
+        <li class="order-list-item">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            class="order-list-link"
+            >facebook</a
+          >
+          /
+        </li>
+        <li class="order-list-item">
+          <a
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            class="order-list-link"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
+
     </main>
     <!-- vladyslav-venher -->
     <!-- Footer -->
