@@ -19,7 +19,7 @@
             type="text"
             name="name"
             id="name"
-            class=""
+            class="form-input"
             placeholder="Full Name"
         /></label>
         <label for="email"
@@ -27,6 +27,7 @@
             type="email"
             name="email"
             id="email"
+            class="form-input"
             placeholder="Email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             required
@@ -36,9 +37,10 @@
             placeholder="Comment"
             id="comment"
             name="comment"
+            class="form-textarea"
           ></textarea>
         </label>
-        <button type="submit">Send</button>
+        <button type="submit" class="form-btn">Send</button>
       </form>
     </div>
     <div class="order-third-wrap">
@@ -69,24 +71,36 @@
           alt="Banking App"
           width="295"
           height="273"
+          class="order-img"
         />
       </picture>
       <p class="order-third-article">Follow us on our social networks:</p>
-      <ul>
-        <li>
-          <a href="https://www.instagram.com/goitclub/" target="_blank"
+      <ul class="order-list">
+        <li class="order-list-item">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            class="order-list-link"
             >instagram</a
           >
           /
         </li>
-        <li>
-          <a href="https://www.facebook.com/goITclub/" target="_blank"
+        <li class="order-list-item">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            class="order-list-link"
             >facebook</a
           >
           /
         </li>
-        <li>
-          <a href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
+        <li class="order-list-item">
+          <a
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            class="order-list-link"
+            >youtube</a
+          >
         </li>
       </ul>
     </div>
