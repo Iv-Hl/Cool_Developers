@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 768px) {
     .vegetable {
-        padding: 100px 12px;
+        padding: 100px 0;
     }
     .vegetables-title {
         font-size: 64px;
@@ -96,7 +96,7 @@
 
 @media screen and (min-width: 1280px) {
     .vegetable {
-        padding: 100px 80px;
+        padding: 100px 0;
     }
     .vegetables-title {
         width: 508px;
