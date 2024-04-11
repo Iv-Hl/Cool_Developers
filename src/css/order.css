@@ -168,3 +168,107 @@
 .order-list-link {
   margin-right: 8px;
 }
+
+@media only screen and (min-width: 768px) {
+  .order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .order-first-wrap {
+    margin-bottom: 50px;
+    max-width: 640px;
+  }
+
+  .order-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+
+  .order-first-article {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-second-wrap {
+    padding: 50px 100px;
+    max-width: 628px;
+    height: 534px;
+    margin: 0 auto 20px auto;
+  }
+
+  .order-second-article {
+    text-align: start;
+    margin-bottom: 50px;
+  }
+
+  .form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .form-textarea::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .form-btn {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+  .order-third-wrap {
+    padding: 50px;
+    max-width: 628px;
+    height: 490px;
+    margin: 0 auto 20px auto;
+  }
+
+  .order-img {
+    border-radius: 20px;
+  }
+
+  .order-third-article {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
+
+  .order-list {
+    gap: 12px;
+  }
+
+  .order-list-item {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .order-list-link {
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .order-first-wrap {
+    max-width: 751px;
+  }
+
+  .forms-wrap {
+    display: flex;
+    gap: 24px;
+  }
+
+  .order-second-wrap {
+    padding: 50px;
+    margin: 0;
+    width: 529px;
+  }
+
+  .order-third-wrap {
+    width: 527px;
+    height: 534px;
+    margin: 0;
+  }
+}
