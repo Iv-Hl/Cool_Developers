@@ -12,8 +12,9 @@
     </div>
     <div class="order-second-wrap">
       <p class="order-second-article">
-        Ordering <span>from us</span> is quick and easy! Fill out
-        <span>the form</span> below and we will contact you !
+        Ordering <span class="order-color-one">from us</span> is quick and easy!
+        Fill out <span class="order-color-two">the form</span> below and we will
+        contact you !
       </p>
       <form>
         <label for="name"
@@ -31,7 +32,7 @@
             id="email"
             class="form-input"
             placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             required
         /></label>
         <label for="comment">
@@ -84,8 +85,7 @@
             target="_blank"
             class="order-list-link"
             >instagram</a
-          >
-          /
+          >/
         </li>
         <li class="order-list-item">
           <a
