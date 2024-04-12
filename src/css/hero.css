@@ -1,7 +1,7 @@
 .hero {
 background-color: #576f35;
 max-width: 375px;
-height: 812px;
+min-height: 812px;
 background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Mob.jpg);
 background-size: 100% auto;
 background-repeat: no-repeat;
@@ -74,7 +74,7 @@ color: #fbfbfb;
 @media only screen and (min-width: 1280px) {
 .hero {
     max-width: 1280px;
-    height: 800px;
+    min-height: 800px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Desk.jpg);
     background-size: 650px 100%;
     background-position: right top;
