@@ -1,6 +1,5 @@
 .vegetable {
     /* background-color: #7a3145; */
-    font-family: "Inter", sans-serif;
     padding: 80px 0;
 }
 
@@ -10,7 +9,7 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .veget-span {
     color: rgba(251, 251, 251, 0.3);
@@ -21,7 +20,7 @@
     font-size: 14px;
     line-height: 1.29;
     color: #fbfbfb;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .vegetables-list {
