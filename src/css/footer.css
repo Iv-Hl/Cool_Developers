@@ -7,10 +7,11 @@
 .footer-wrap {
 }
 
+.footer-top-wrap {
+    margin-bottom: 40px;
+}
+
 .footer-main-wrap {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
 }
 
 .footer-logo {
@@ -21,6 +22,11 @@
     fill: #fbfbfb;
 }
 
+.footer-logoicon {}
+
+.footer-logotext {
+}
+
 .footer-text {
     font-weight: 500;
     font-size: 14px;
@@ -28,13 +34,18 @@
     color: #fbfbfb;
 }
 
+.footer-bottom-wrap {
+}
+
 .footer-links-list {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    margin-bottom: 40px;
 }
 
 .footer-link {
+    display: block;
     font-weight: 600;
     font-size: 28px;
     line-height: 1;
@@ -102,4 +113,98 @@
 }
 
 .footer-bottom-part-item {}
-    
+
+
+/* todo==========================MEDIA============================== */
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 32px;
+    }
+
+    .footer-wrap {
+        padding: 0;
+    }
+
+    .footer-top-wrap {
+        margin-bottom: 0;
+    }
+
+    .footer-main-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .footer-logo {
+        margin-bottom: 25px;
+        gap: 8px;
+    }
+
+    .footer-logotext {
+        width: 168px;
+        height: 15px;
+    }
+
+    .footer-logoicon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-text {
+        width: 265px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .footer-links-list {
+        gap: 25px;
+        margin-bottom: 64px;
+    }
+
+    .footer-link {
+        font-size: 32px;
+    }
+
+    .footer-contacts {
+        margin-bottom: 100px;
+        gap: 25px;
+    }
+
+    .footer-contacts-item {
+        font-size: 18px;
+        line-height: 1.11;
+        width: 215px;
+    }
+
+    .footer-bottom-link {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    .footer-bottom-text {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .footer {
+        padding: 50px 100px;
+    }
+
+    .footer-bottom-wrap {
+        display: flex;
+        gap: 121px;
+    }
+
+    .footer-links-list {
+        margin-bottom: 125px;
+    }
+
+    .footer-contacts {
+        margin-bottom: 0;
+    }
+}
