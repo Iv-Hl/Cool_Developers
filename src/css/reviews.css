@@ -12,7 +12,6 @@
     text-transform: uppercase;
     color: #141414;
     margin-bottom: 20px;
-    margin: 25px;
 }
 
 .reviews_main_pos {
@@ -65,7 +64,6 @@
     line-height: 129%;
     text-align: center;
     color: rgba(4, 3, 6, 0.4);
-    width: 288px;
     max-width: 288px;
 }
 
@@ -88,6 +86,7 @@
         font-size: 64px;
         line-height: 100%;
         max-width: 553px;
+        margin-bottom: 25px;
     }
     .reviews_main_text {
         font-size: 16px;
