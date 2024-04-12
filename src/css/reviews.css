@@ -1,3 +1,117 @@
 .reviews {
-    background-color: aqua;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #fbfbfb;
+}
+
+.reviews_main {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 104%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 20px;
+}
+
+.reviews_main_pos {
+    color: #576f35;
+}
+
+.reviews_main_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #141414;
+    margin-bottom: 40px;
+}
+
+.reviews_sec {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews_sec_list {
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    padding: 20px 16px 38px 16px;
+    width: 100%;
+}
+
+.reviews_sec_list_img {
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+.reviews_sec_list_main {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #040306;
+    margin-bottom: 8px;
+}
+
+.reviews_sec_list_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: rgba(4, 3, 6, 0.4);
+}
+
+.secb{
+    display: none;
+}
+
+.secc{
+    display: none;
+}
+
+@media only screen and (min-width: 375px) {
+    .reviews_sec_list {
+        width: 335px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews_main {
+        font-size: 64px;
+        line-height: 100%;
+    }
+    .reviews_main_text {
+        font-size: 16px;
+        line-height: 125%;
+    }
+    .reviews_sec_list {
+        width: 343px;
+    }
+    .reviews_sec_list_main {
+        font-size: 18px;
+        line-height: 110%;
+        color: #141414;
+
+    }
+    .reviews_sec_list_text {
+        font-size: 16px;
+        line-height: 140%;
+        color: rgba(20, 20, 20, 0.4);
+    }
+    .secb{
+        display: block;
+    }
+}
+  
+@media only screen and (min-width: 1280px) {
+    .reviews_sec {
+        gap: 25px;
+    }
+    .secc{
+        display: block;
+    }
 }
