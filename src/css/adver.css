@@ -1,4 +1,93 @@
 .adver {
   background-color: #fff;
-  padding: 100px;
+  padding: 80px 0;
+}
+
+.adver .container {
+  padding: 0 10px;
+}
+
+.discount-text {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+.discount-text-colored {
+  display: block;
+  color: #fbfbfb;
+  border-radius: 12px;
+  background: #576f35;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.discount-text-default {
+  display: block;
+  padding-left: 13px;
+  padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .adver {
+    padding: 100px 0;
+  }
+
+  .adver .container {
+    padding: 0 16px;
+  }
+
+  .discount-text {
+    font-size: 64px;
+    line-height: 1.09;
+  }
+
+  .discount-text-colored {
+    padding: 8px 16px;
+  }
+
+  .discount-text-default {
+    padding-top: 0;
+    margin-top: -8px;
+    padding-left: 16px;
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .adver {
+    padding: 100px 80px;
+  }
+
+  .adver .container {
+    padding: 0 20px;
+  }
+
+  .discount-text-box {
+    max-width: 1076px;
+  }
+
+  .discount-text {
+    font-size: 76px;
+    line-height: 1.05;
+    margin-left: 13px;
+  }
+
+  .discount-text-colored {
+    display: inline-block;
+    padding: 0 13px;
+    margin-left: -13px;
+  }
+
+  .discount-text-default {
+    display: inline;
+    padding: 0;
+    margin: 0 0 0 -8px;
+  }
 }
