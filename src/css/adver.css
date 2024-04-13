@@ -65,6 +65,10 @@
     padding: 100px 80px;
   }
 
+  .adver .container {
+    padding: 0;
+  }
+
   .discount-text-box {
     max-width: 1076px;
   }
