@@ -1,4 +1,130 @@
 .header {
-  padding: 20px 0;
-  background-color: aqua;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+
+.header-nav-wrapper {
+  display: none;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 0;
+  fill: #fbfbfb;
+  transition: fill 250ms linear;
+}
+
+.logo-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.logo-text {
+  width: 148px;
+  height: 12px;
+}
+
+.mobile-menu-btn {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.mobile-menu-icon {
+  width: 40px;
+  height: 40px;
+  fill: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    top: 32px;
+  }
+  .logo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 0;
+  }
+  .logo-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .logo-text {
+    width: 168px;
+    height: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+  .header-nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-menu-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 52px;
+  }
+
+  .header-menu-link {
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    background-color: transparent;
+    transition: color 250ms linear, background-color 250ms linear;
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    color: #7a3145;
+    background-color: #fbfbfb;
+  }
+
+  .header-btn {
+    padding: 16px 32px;
+    border-radius: 30px;
+    border: none;
+    background-color: #7a3145;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    transition: background-color 250ms linear;
+  }
+
+  .header-btn:hover,
+  .header-btn:focus {
+    background-color: #622133;
+  }
+
+  .logo-link:hover, .logo-link:focus {
+    fill: #7a3145;
+  }
 }
