@@ -1,6 +1,6 @@
 /* Reset styles */
 body {
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   background-color: #7a3145;
 }
 
@@ -14,7 +14,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
