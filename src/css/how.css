@@ -1,11 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 /* visually-hidden=============================================================================================== */
 .visually_hidden {
   position: absolute;
@@ -26,12 +18,7 @@
   --background-2: #7a3145;
   --main-text: #fbfbfb;
 }
-
 /* container=============================================================================================== */
-.container {
-  padding: 0 20px;
-  margin: 0 auto;
-}
 .how_it_works {
   margin: 0 auto;
   width: 100%;
@@ -39,30 +26,29 @@
 .section_partion {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 .f_part {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   background-color: var(--background-2);
   padding: 40px 0 40px 0;
-  position: relative;
-  overflow: hidden;
-  position: relative;
 }
 .photo_container {
   position: relative;
+  border-radius: 30px;
+  overflow: hidden;
 }
-.instr_photo {
+/* .instr_photo {
   max-width: 100%;
   object-fit: cover;
   border-radius: 30px;
-  /* width: 335px; */
   height: 450px;
   max-width: 100%;
-}
-
+} */
 .photo_overlay {
   position: absolute;
   top: 0;
@@ -72,12 +58,11 @@
   width: 100%;
   height: 100%;
 }
-
 /* second part=============================================================================================== */
 .s_part {
   background-color: var(--background);
   padding: 80px 0 80px 0;
-  width: 100%;
+  /* width: 100%; */
 }
 .s_part_flex {
   display: flex;
@@ -119,7 +104,6 @@
   padding: 12px 25px 12px 100px;
   counter-increment: number;
 }
-
 .part_2_menu_item_par {
   height: 52px;
   font-weight: 500;
@@ -127,13 +111,11 @@
   line-height: 1.16667;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
-
   position: relative;
   vertical-align: center;
   display: table-cell;
   vertical-align: middle;
 }
-
 .part_2_menu_item_par:before {
   content: counter(number);
   position: absolute;
@@ -160,39 +142,39 @@
 }
 /* ADAPTIVE MOBILE=============================== */
 @media only screen and (min-width: 375px) {
-  .container {
+  /* .container {
     max-width: 375px;
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
-  }
-  .instr_photo {
+  } */
+  /* .instr_photo {
     max-width: 100%;
     width: 335px;
-  }
+  } */
 }
 /* TABLET========================================= */
 @media only screen and (min-width: 768px) {
-  .container {
+  /* .container {
     padding: 0 64px;
     margin-left: 0;
     margin-right: 0;
-  }
+  } */
   .f_part {
     padding: 100px 0;
   }
-  .instr_photo {
+  /* .instr_photo {
     max-width: 100%;
     object-fit: cover;
     border-radius: 30px;
     width: 640px;
     height: 640px;
     max-width: 100%;
-  }
+  } */
   /* second part=============================================================================================== */
   .s_part {
     padding: 100px 0;
-    width: 100%;
+    /* width: 100%; */
   }
   .part2_header {
     font-size: 32px;
@@ -233,20 +215,27 @@
 }
 /* DESKTOP================================ */
 @media only screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     padding: 0 100px;
     margin: 0 auto;
+  } */
+  .f_part {
+    max-width: 630px;
+    width: 100%;
+  }
+  .s_part {
+    max-width: 650px;
   }
   .section_partion {
-    display: flex;
     flex-direction: row;
+    justify-content: center;
   }
-  .instr_photo {
+  /* .instr_photo {
     max-width: 100%;
     object-fit: cover;
     border-radius: 30px;
     width: 430px;
     height: 559px;
     max-width: 100%;
-  }
+  } */
 }
