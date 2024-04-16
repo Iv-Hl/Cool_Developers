@@ -12,6 +12,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,9 +25,11 @@
     />
     
     <script type="module" crossorigin src="/Cool_Developers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Cool_Developers/assets/index-bc1f70a4.css">
+    <link rel="modulepreload" crossorigin href="/Cool_Developers/assets/vendor-927f2a77.js">
+    <link rel="stylesheet" href="/Cool_Developers/assets/vendor-b3bef8be.css">
+    <link rel="stylesheet" href="/Cool_Developers/assets/index-2745bdc9.css">
   </head>
-  <body>
+  <body data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-once="false" data-aos-delay="100">
     <!-- Alexandra Savenko -->
     <!-- Header -->
     <header class="header">
@@ -70,8 +77,8 @@
       <section class="hero">
     <div class="container hero-container">
         <div class="hero-text">
-            <h1 class="hero-text-h">Organic vegetables to your diet today!</h1>
-            <p class="hero-text-p">Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest
+            <h1 class="hero-text-h animate__animated animate__bounceInRight">Organic vegetables to your diet today!</h1>
+            <p data-aos="fade-left"  data-aos-duration="700" class="hero-text-p">Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest
             Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.</p>
         </div>
     </div>
@@ -111,18 +118,18 @@
     </div>
     <div class="s_part">
       <div class="container s_part_flex">
-        <h2 class="part2_header">
+        <h2 data-aos="zoom-out-up" class="part2_header">
           To order your <span class="green_t">vegetable</span> basket, simply
           follow these
           <span class="green_t"> easy steps</span>
         </h2>
-        <p class="s_part_p">
+        <p data-aos="zoom-out-up" class="s_part_p">
           Our baskets are assembled with care and delivered straight to your
           doorstep, so you can enjoy the taste of fresh fruit without ever
           leaving your home.
         </p>
         <ol class="part_2_menu">
-          <li class="part_2_menu_item">
+          <li data-aos="zoom-in" class="part_2_menu_item">
             <p class="part_2_menu_item_par">
               Just choose the<span class="part_2_menu_item_par_b">
                 the vegetable</span
@@ -131,14 +138,14 @@
               <span class="part_2_menu_item_par_b">next to it.</span>
             </p>
           </li>
-          <li class="part_2_menu_item">
+          <li data-aos="zoom-in" class="part_2_menu_item">
             <p class="part_2_menu_item_par">
               Click on
               <span class="part_2_menu_item_par_b">the basket</span> and fill
               out the form.
             </p>
           </li>
-          <li class="part_2_menu_item">
+          <li data-aos="zoom-in" class="part_2_menu_item">
             <p class="part_2_menu_item_par">
               Sit back and relax! Your
               <span class="part_2_menu_item_par_b">fresh vegetables</span>
@@ -157,7 +164,7 @@
   <div class="container">
     <h2 class="discount-title visually-hidden">Advertisment</h2>
     <div class="discount-text-box">
-      <p class="discount-text">
+      <p data-aos="fade-down-right" data-aos-duration="800" class="discount-text">
         <span class="discount-text-colored">Discount up to 40%!</span>
         <span class="discount-text-default"
           >Taste the vitamins and keep your health</span
@@ -171,12 +178,12 @@
       <!-- Section 4 -->
       <section id="vegetables" class="vegetable">
     <div class="container">
-        <h2 class="vegetables-title">organic <span class="veget-span">vegetables</span></h2>
+        <h2 data-aos="fade-left" class="vegetables-title">organic <span class="veget-span">vegetables</span></h2>
         <p class="vegetables-text">Our organic vegetables are hand-picked from local farms and delivered straight to your
             doorstep, ensuring that you get
             the freshest and most nutritious produce possible.</p>
         <ul class="vegetables-list">
-            <li class="vegetables-item">
+            <li data-aos="flip-right" data-aos-duration="700" class="vegetables-item">
                 <div class="vegetables-item-wrap">
                     <h3 class="vegetables-item-title">eggplant</h3>
                     <p class="vegetables-item-text">60 UAH / kg</p>
@@ -184,7 +191,7 @@
                         src="/Cool_Developers/assets/veget1-28550a6b.png" alt="eggplant" width="282" height="243">
                 </div>
             </li>
-            <li class="vegetables-item">
+            <li data-aos="flip-right" data-aos-duration="700" class="vegetables-item">
                 <div class="vegetables-item-wrap">
                     <h3 class="vegetables-item-title">leek</h3>
                     <p class="vegetables-item-text">50 UAH / kg</p>
@@ -192,7 +199,7 @@
                         src="/Cool_Developers/assets/veget2-3ac68fb3.png" alt="leek" width="282" height="243">
                 </div>
             </li>
-            <li class="vegetables-item">
+            <li data-aos="flip-right" data-aos-duration="700" class="vegetables-item">
                 <div class="vegetables-item-wrap">
                     <h3 class="vegetables-item-title">mushrooms</h3>
                     <p class="vegetables-item-text">40 UAH / kg</p>
@@ -200,7 +207,7 @@
                         src="/Cool_Developers/assets/veget3-bbd735fe.png" alt="mushrooms" width="282" height="243">
                 </div>
             </li>
-            <li class="vegetables-item">
+            <li data-aos="flip-right" data-aos-duration="700" class="vegetables-item">
                 <div class="vegetables-item-wrap">
                     <h3 class="vegetables-item-title">corn</h3>
                     <p class="vegetables-item-text">60 UAH / kg</p>
@@ -208,7 +215,7 @@
                         src="/Cool_Developers/assets/veget4-7f54a7d6.png" alt="corn" width="282" height="243">
                 </div>
             </li>
-            <li class="vegetables-item">
+            <li data-aos="flip-right" data-aos-duration="700" class="vegetables-item">
                 <div class="vegetables-item-wrap">
                     <h3 class="vegetables-item-title">sweet potatoes</h3>
                     <p class="vegetables-item-text">50 UAH / kg</p>
@@ -216,7 +223,7 @@
                         src="/Cool_Developers/assets/veget5-29e1476e.png" alt="sweet potatoes" width="282" height="243">
                 </div>
             </li>
-            <li class="vegetables-item">
+            <li data-aos="flip-right" data-aos-duration="700" class="vegetables-item">
                 <div class="vegetables-item-wrap">
                     <h3 class="vegetables-item-title">carrot</h3>
                     <p class="vegetables-item-text">40 UAH / kg</p>
@@ -231,7 +238,7 @@
       <!-- Section 5 -->
       <section class="reviews" id="reviews">
     <div class="container">
-        <h2 class="reviews_main">reviews from our <a class="reviews_main_pos" href="">customers</a></h2>
+        <h2 data-aos="fade-left" class="reviews_main">reviews from our <a class="reviews_main_pos" href="">customers</a></h2>
         <p class="reviews_main_text">Words of our customers: impressions and opinions about the quality of our services and the freshness of our products.</p>
         <ul class="reviews_sec">
             <li class="reviews_sec_list">
@@ -257,7 +264,7 @@
       <!-- Section 6 -->
       <section class="order">
   <div class="container">
-    <div class="order-first-wrap">
+    <div data-aos="flip-up" class="order-first-wrap">
       <h2 class="order-title">
         Fresh <span>Harvest</span> Box has got you covered
       </h2>
@@ -362,7 +369,8 @@
     </main>
     <!-- vladyslav-venher -->
     <!-- Footer -->
-    <footer class="footer">
+    <footer data-aos="fade-down" data-aos-easing="linear"
+data-aos-duration="500" class="footer">
   <div class="container">
     <div class="footer-main-wrap">
       <div class="footer-top-wrap">
