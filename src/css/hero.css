@@ -15,6 +15,16 @@ margin: 0 auto;
 }
 }
 
+/* /////////////gfgf/////////////////////// */
+
+
+
+.animate__animated {
+animation: bounce;
+animation-duration: 2s;
+}
+/* //////////////////////////////// */
+
 .hero-text {
 max-width: 335px;
 min-height: 302px;
