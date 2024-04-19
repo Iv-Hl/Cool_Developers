@@ -17,6 +17,7 @@
     gap: 4px;
     margin-bottom: 14px;
     fill: #fbfbfb;
+    transition: fill 250ms linear;
 }
 
 .footer-logoicon {}
@@ -49,6 +50,7 @@
     line-height: 1;
     letter-spacing: -0.01em;
     color: #fbfbfb;
+    transition: color 250ms linear;
 }
 
 .footer-contacts {
@@ -193,13 +195,28 @@
         padding-bottom: 50px;
     }
 
+    .footer-logo:hover,
+    .footer-logo:focus {
+        fill: rgba(251, 251, 251, 0.7);
+    }
+
     .footer-bottom-wrap {
         display: flex;
         gap: 121px;
         margin-bottom: 125px;
     }
 
+    
     .footer-links-list {
         margin-bottom: 0;
+    }
+
+    .footer-link:hover,
+    .footer-link:focus {
+        color: rgba(251, 251, 251, 0.5);
+    }
+
+    .footer-contacts-item:hover, .footer-contacts-item:focus {
+        text-decoration: underline;
     }
 }
