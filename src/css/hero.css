@@ -1,23 +1,39 @@
 .hero {
-background-color: #576f35;
-max-width: 375px;
-min-height: 812px;
-background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Mob.jpg);
-background-size: 100% auto;
-background-repeat: no-repeat;
-background-position: center bottom;
-margin: 0 auto;
+  background-color: #576f35;
+  max-width: 375px;
+  min-height: 774px;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
+    url(../img/hero-foto/Vegetables-Mob.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0 auto;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-.hero {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Mob-2x.jpg);
+.hero-bg {
+  background-color: #576f35;
+  max-width: 100%;
 }
+.hero-container {
+  background-color: #576f35;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../img/hero-foto/Vegetables-Mob-2x.jpg);
+  }
 }
 
 /* /////////////gfgf/////////////////////// */
-
-
 
 /* .animate__animated {
 animation: bounce;
@@ -26,83 +42,107 @@ animation-duration: 2s;
 /* //////////////////////////////// */
 
 .hero-text {
-max-width: 335px;
-min-height: 302px;
-padding: 100px 0 0 0;
+  max-width: 335px;
+  min-height: 302px;
+  padding: 100px 0 0 0;
 }
 
 .hero-text-h {
-font-weight: 600;
-font-size: 48px;
-line-height: 1;
-letter-spacing: -0.01em;
-text-transform: uppercase;
-color: #fbfbfb;
-margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
 }
 
 .hero-text-p {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.29;
-color: #fbfbfb;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  padding-bottom: 40px;
 }
-
 
 @media only screen and (min-width: 768px) {
-.hero {
+  .hero {
     max-width: 768px;
     min-height: 1024px;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Tab.jpg);
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../img/hero-foto/Vegetables-Tab.jpg);
     background-size: 100% 539px;
-}
+  }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-container {
+    background-color: transparent;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero {
-        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Tab-2x.jpg);
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(../img/hero-foto/Vegetables-Tab-2x.jpg);
     }
-}
+  }
 
-.hero-text {
+  .hero-text {
     max-width: 704px;
     min-height: 313px;
     padding: 122px 0 0 0;
-}
+  }
 
-.hero-text-h {
+  .hero-text-h {
     font-size: 76px;
     margin-bottom: 25px;
-}
+  }
 
-.hero-text-p {
+  .hero-text-p {
     font-size: 16px;
     line-height: 1.25;
-}
-
+    padding-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-.hero {
+  .hero {
     max-width: 1280px;
     min-height: 800px;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Desk.jpg);
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../img/hero-foto/Vegetables-Desk.jpg);
     background-size: 650px 100%;
     background-position: right top;
-}
+  }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero {
-        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero-foto/Vegetables-Desk-2x.jpg);
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(../img/hero-foto/Vegetables-Desk-2x.jpg);
     }
-}
+  }
 
-.hero-text {
+  .hero-text {
     padding: 238px 0px 50px 0px;
     max-width: 502px;
     min-height: 562px;
-}
+  }
 
-.hero-text-h {
+  .hero-text-h {
     margin-bottom: 128px;
-}
+  }
 }
