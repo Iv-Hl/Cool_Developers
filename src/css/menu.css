@@ -123,6 +123,10 @@
 /* .mob-link-first {
   color: #7a3145;
 } */
+.mob-menu-link-btn {
+  align-self: center;
+}
+
 .mob-meny-shop-btn {
   border-radius: 30px;
   display: block;

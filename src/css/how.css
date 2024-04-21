@@ -22,7 +22,14 @@
 .how_it_works {
   margin: 0 auto;
   width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--background-2) 50%,
+    var(--background) 50%
+  );
+  margin-top: -2px;
 }
+
 .section_partion {
   display: flex;
   flex-direction: column;
