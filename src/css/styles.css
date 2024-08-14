@@ -16,7 +16,7 @@
 @import url('./order.css');
 @import url('./footer.css');
 @import url('./menu.css');
-
+@import url('./scroll-up.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -36,4 +36,12 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  overflow: auto;
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
