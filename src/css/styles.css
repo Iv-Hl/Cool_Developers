@@ -36,10 +36,10 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  overflow: auto;
   overflow-x: hidden;
   width: 100%;
   box-sizing: border-box;
